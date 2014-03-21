@@ -1,0 +1,52 @@
+body{
+margin:0;
+padding-top: 0px;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size:14px;
+line-height:20px;
+color:#333333;
+background-color:#f0f0f0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.carousel-caption {
+left: 0;
+right: 0;
+bottom: 0;
+top: auto;
+padding: 15px;
+background: #333333;
+background: rgba(0, 0, 0, 0.75);
+}
+
+.container{
+width: 1100px
+}
+
+.ie-margin1{
+margin-top: -10px;
+}
+
+.ie-margin2{
+margin-top: -20px;
+}
+
+.ie-margin3{
+margin-top: -30px;
+}
+
+.ie-container-carousel{
+margin-top: 200px;
+}
+
+.input-append, .input-append, .input-append, .input-append .uneditable-input{
+width: 200px;
+}
+
+.views-sidebar-alternative{
+background-color: blue;
+}
+

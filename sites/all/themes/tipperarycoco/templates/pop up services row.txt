@@ -1,0 +1,47 @@
+<div class="slide-out-div" style="line-height: 1; position: fixed; width: 100%; z-index: 40;">
+<a class="handle" style="color: #4d4d4f; text-decoration: none; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 0px; line-height: 30px; background: #EAC348; -webkit-border-radius: 10px 0px 0px 0px; border-radius: 10px 0px 0px 0px; width: 178px; height: 38px; display: block; text-indent: 0px; outline: none; position: absolute; top: 0px; right: -46px;">
+<div class="circle_sm1" style="background: white; text-align: center"><i class="fa fa-cogs fa-1x" style="color: #4d4d4f"></i></div> Services</a>
+<div class="container"><div class="row" style="display: block; margin: auto;">
+
+
+<div class="span1 icongroup">
+<div class="circle_med" style="background: #FCC120; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-users fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #FCC120; text-align:center;">Community</div></div>
+<div class="span1 icongroup"><div class="circle_med" style="background: #0079C1; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-comments fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #0079C1; text-align:center;">Corporate<br>Services</div>
+</div>
+<div class="span1 icongroup">
+<div class="circle_med" style="background: #0079C1; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-puzzle-piece fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #0079C1; text-align:center;">Economic<br>Development</div></div>
+<div class="span1 icongroup">
+<div class="circle_med" style="background: #F0514A; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-fire fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #F0514A; text-align:center;">Emergency<br>Services</div></div>
+<div class="span1 icongroup"><div class="circle_med" style="background: #6AC0A3; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-leaf fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #6AC0A3; text-align:center;">Environment</div></div>
+<div class="span1 icongroup"><div class="circle_med" style="background: #FCC120; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-key fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #FCC120; text-align:center;">Housing</div></div>
+<div class="span1 icongroup">
+<div class="circle_med" style="background: #F0514A; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-tachometer fa-3x" style="padding-top: 7px;"></i></div>
+<div style="color: #F0514A; text-align:center;">Motor Tax</div></td>
+</div>
+<div class="span1 icongroup">
+<div class="circle_med" style="background: #6AC0A3; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-arrows-alt fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #6AC0A3; text-align:center;">Planning</div>
+</div>
+<div class="span1 icongroup"><div class="circle_med" style="background: #F0514A; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-road fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #F0514A; text-align:center;">Roads</div></div>
+<div class="span1 icongroup"><div class="circle_med" style="background: #4ABADE; color: white; padding: 5px; margin: 3px; text-align:center;">
+<i class="fa fa-tint fa-3x" style="padding-top: 10px;"></i></div>
+<div style="color: #4ABADE; text-align:center;">Water</div></div>
+
+
+</div></div>
