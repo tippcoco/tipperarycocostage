@@ -1,6 +1,6 @@
 <div class="row" style="background: #F5f5f5">
 <div class="top-icons pull-right" style="margin-bottom: -12px;">
-<div class="contact"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/contactus.png"> 067 44500</div>
+<div class="contact"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/contactus.png"> 0761 065000</div>
 <div class="email"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/emailus.png"> Email</div>
 <div class="loc"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/offices.png"> Office Locations</div></div></div>
 <div class="container">
@@ -49,14 +49,14 @@
  
 <div class="main-container container">	
 	
-  <div class="row-fluid" style="background-color: #fff; padding: 12px; width: auto">
+  <div class="row-fluid" id="one-true" style="background-color: #fff; padding: 12px; width: auto">
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside class="span3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>  
 
-	 <div class="span8" id="pagebody">
+	 <div class="span8 col" id="pagebody">
 	 
     <section>
 	  <?php if (!empty($page['highlighted'])): ?>
@@ -78,11 +78,12 @@
       <?php if (!empty($action_links)): ?>
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
-      <?php print render($page['content']); ?>
+	  <?php print render($page['content']); ?>
+	  <?php print $feed_icons; ?>
 	 </section>	
 	 
 	 </div>
-	 <div class="span4 pull-right">
+	 <div class="span4 pull-right col" style="background: #e5e5e5">
 	
     <?php if (!empty($page['sidebar_second'])): ?>
       <aside role="complementary">
@@ -146,6 +147,16 @@
 </div>
 </div>
 </div></div>
+<div class="row" style="background: #fff; margin-left: 0; border-bottom: 0px solid #2b2b2b"><div class="container">
+	
+	
+<img src="/sites/default/files/img/slide1a.jpg">
+</div></div>
+
+
+
+
+
 <div class="navbar-bottom footerbg">
 <div class="container address1 footerbg">
 <h4>Tipperary County Council</h4><hr />
@@ -157,7 +168,7 @@
 County Hall, Clonmel | County Hall, Nenagh
 </div> 
 <div class="span12">
-Telephone (office hours): 067 44500  
+Telephone (office hours): 0761 065000 
 </div> 
 <div class="span12">
 Out of Hours Emergency Number: 1890 923 948
@@ -182,8 +193,8 @@ Email: info@tipperarycoco.ie
 
 
 <div class="slide-out-div" style="line-height: 1; position: fixed; width: 100%; z-index: 40;">
-<a class="handle" style="color: #4d4d4f; text-decoration: none; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 0px; line-height: 30px; background: #EAC348; -webkit-border-radius: 10px 0px 0px 0px; border-radius: 10px 0px 0px 0px; width: 178px; height: 38px; display: block; text-indent: 0px; outline: none; position: absolute; top: 0px; right: -46px;">
-<div class="circle_sm1" style="background: white; text-align: center"><i class="fa fa-cogs fa-1x" style="color: #4d4d4f"></i></div> Services</a>
+<a class="handle" style="background-image: url('http://www.tipperarycocostage.ie/sites/default/files/img/servicesbg.png');background-repeat: no-repeat;background-position: top left;color: #4d4d4f; text-decoration: none; padding-top: 2px; padding-bottom: 5px; padding-left: 10px; padding-right: 0px; line-height: 30px; width: 178px; height: 38px; display: block; text-indent: 0px; outline: none; position: absolute; top: 0px; right: -46px;">
+<img src="http://www.tipperarycocostage.ie/sites/default/files/img/services.png"> Services</a>
 <div class="container"><div class="row" style="display: block; margin: auto;">
 
 

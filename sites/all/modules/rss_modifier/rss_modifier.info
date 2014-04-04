@@ -1,0 +1,3 @@
+name = RSS_Modifier
+description = A module to modify RSS fields.
+core = 7.x

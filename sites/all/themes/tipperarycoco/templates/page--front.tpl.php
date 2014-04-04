@@ -1,12 +1,12 @@
 <div class="row" style="background: #F5f5f5">
 <div class="top-icons pull-right" style="margin-bottom: -12px;">
-<div class="contact"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/contactus.png"> 067 44500</div>
+<div class="contact"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/contactus.png"> 0761 065000</div>
 <div class="email"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/emailus.png"> Email</div>
 <div class="loc"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/offices.png"> Office Locations</div></div></div>
 <div class="container">
 <div class="logo-inner"><img src="http://www.tipperarycocostage.ie/sites/default/files/logo_main2.png" alt="Home"></div></div>
 
-<div class="row-fluid nav3"><div class="row" style="background: #EAC348; margin-left: 0; border-bottom: 1px solid #4D4D4F;"><div class="container" style="background: #EAC348">
+<div class="row-fluid nav3"><div class="row" style="background: #EAC348; margin-left: 0; border-bottom: 0px solid #4D4D4F;"><div class="container" style="background: #EAC348">
 <div class="container" style="background: transparent; position: relative; z-index: 150;">
   <div class="navbar">
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -31,7 +31,7 @@
         </div>
       <?php endif; ?></div>
   </div></div></div></div>
-<div class="row" style="background: #4d4d4f; margin-left: 0"><div class="container">
+<div class="row" style="background: #4d4d4f; margin-left: 0; border-bottom: 0px solid #2b2b2b"><div class="container">
 	<div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel">
 	
 	<div class="container">
@@ -55,7 +55,11 @@
 	</div>
 </div></div>
 
-<div class="row" style="background: #8B9092; margin-left: 0"><div class="container">
+
+
+
+
+<div class="row" style="background: #fff; margin-left: 0"><div class="container">
 <div class="row-fluid">
 <section class="span3 iwt1 iwt_inner">
 <span></span>
@@ -108,7 +112,8 @@
 
 
 
-<div class="row" style="background: #67C0A0; margin-left: 0"><div class="container" style="background:#67C0A0; padding-top: 20px; padding-bottom: 20px;">
+<div class="row newsmainrow" style="margin-left: 0">
+<div class="container" style="padding-top: 0px; padding-bottom: 0px;">
   <div id="one-true" class="group">
   <div class="col span8" style="margin-left: 10px">
   <div class="headline">Latest News</div>
@@ -118,9 +123,13 @@
 
   
   
-  </div><div class="col span4" style="background: #429D7D; margin-left: 10px">
+  </div><div class="col span4" style="background: #258A9C; margin-left: 20px">
 <?php print render($page['Featured']); ?>
 </div></div></div></div>
+
+
+
+
 
 <div class="row shadow" style="background: #fff;">
 <div class = "footerbg" >             
@@ -169,6 +178,34 @@
 </div>
 </div>
 </div>
+
+<div class="row" style="background: #fff; margin-left: 0; border-bottom: 0px solid #2b2b2b"><div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+     
+      <div class="carousel-inner" style="height: 150px;">
+        <div class="item active">
+		<div class="row" style="margin-left: 25px; margin-right: 25px;">
+		<div class="span" style="margin-left: 0px"><a href="http://www.southtipperaryinfo.ie" target="_new"><img src="/sites/default/files/img/cdu1.jpg" height="149px"></a></div>
+		<div class="span" style="margin-left: 0px"><a href="http://www.localenterprise.ie/tipperary" target="_new"><img src="/sites/default/files/img/leo2.jpg"></a></div>
+		<div class="span" style="margin-left: 0px"><a href="http://www.airtricitysolutions.com/Content.aspx?key=report-fault" target="_new"><img src="/sites/default/files/img/airtricity3.jpg" width="261px" height="149px"></a></div>
+		<div class="span" style="margin-left: 0px"><a href="http://www.water.ie" target="_new"><img src="/sites/default/files/img/water4.jpg"></a></div></div></div>
+
+        <div class="item">
+          <div class="row" style="margin-left: 25px; margin-right: 25px;">
+		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/stsp5.jpg"></div>
+		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/tipp6.jpg"></div>
+		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/marathon7.jpg"></div>
+		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/tipp8.jpg"></div></div>
+        </div>
+		
+    
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+    </div><!-- /.carousel -->
+</div></div>
+
 <div class="navbar-bottom footerbg">
 <div class="container address1 footerbg">
 <h4>Tipperary County Council</h4><hr />
@@ -180,7 +217,7 @@
 County Hall, Clonmel | County Hall, Nenagh
 </div> 
 <div class="span12">
-Telephone (office hours): 067 44500  
+Telephone (office hours): 0761 065000  
 </div> 
 <div class="span12">
 Out of Hours Emergency Number: 1890 923 948
@@ -255,7 +292,7 @@ Email: info@tipperarycoco.ie
 <script src="http://www.tipperarycocostage.ie/sites/default/files/tiles/js/scripts.js"></script>
 <script src="http://www.tipperarycocostage.ie/sites/all/themes/tipperarycoco/Tiles/js/jquery.tabSlideOut.v1.3.js"></script>
 
-
+	
 <script type="text/javascript">
 (function ($) {
 		$(document).ready(function() {
