@@ -1,121 +1,155 @@
-<div class="row" style="background: #F5f5f5">
-<div class="top-icons pull-right" style="margin-bottom: -12px;">
-<div class="contact"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/contactus.png"> 0761 065000</div>
-<div class="email"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/emailus.png"> Email</div>
-<div class="loc"><img src="http://www.tipperarycocostage.ie/sites/default/files/img/offices.png"> Office Locations</div></div></div>
-<div class="container">
-<div class="logo-inner"><img src="http://www.tipperarycocostage.ie/sites/default/files/logo_main2.png" alt="Home"></div></div>
+<div class="row"><div class="container" style="background: #fff; padding-top:10px">
+  <div class="span8" style="margin-left: -20px; margin-bottom: -18px; position: relative; z-index: 3">
+  <img src="/sites/default/files/img/logo.png"></div>
+  
+   <div class="span4 pull-right" style="margin: 0px; padding:0;">
+   <div class="row-fluid">
+   <div class="span1" style="padding:0; text-align: right;"><img style="padding-right: 8px" src="/sites/default/files/img/lo.png"></div>
+   <div class="span11" style="margin: 0px; padding:0; font-size: 12px">Civic Offices, Clonmel | Civic Offices, Nenagh, Co. Tipperary<br>
+   Opening Times: 9.30- 5.30, Mon-Fri</div></div>
+   
+   
+   
+   <div class="row-fluid" style="margin-top: 15px;">
+   <div class="span1" style="padding:0; text-align: right;"><img style="padding-right: 8px" src="/sites/default/files/img/ph.png"></div>
+   <div class="span5" style="margin: 0px; padding:0; font-size: 12px">0761 065000<br>Out of Hours: 1890 923 948</div>
+   <div class="span1" style="margin: 0px; padding:0; text-align: right;"><img style="padding-right: 8px" src="/sites/default/files/img/ma.png"></div>
+   <div class="span5 actions" style="margin: 0px; padding:0; font-size: 12px"><a href="mailto: info@tipperarycoco.ie">info@tipperarycoco.ie</a></div>
 
-<div class="row-fluid nav3"><div class="row" style="background: #EAC348; margin-left: 0; border-bottom: 0px solid #4D4D4F;"><div class="container" style="background: #EAC348">
-<div class="container" style="background: transparent; position: relative; z-index: 150;">
-  <div class="navbar">
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </a>
+   </div>
+  </div></div></div>
+    
+    
 
-      <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <div class="nav-collapse collapse">
-          <nav role="navigation">
-            <?php if (!empty($primary_nav)): ?>
-              <?php print render($primary_nav); ?>
-            <?php endif; ?>
-            <?php if (!empty($secondary_nav)): ?>
-              <?php print render($secondary_nav); ?>
-            <?php endif; ?>
-            <?php if (!empty($page['navigation'])): ?>
+    <!-- Carousel
+    ================================================== -->
+   <div class="row" style="background: #4d4d4f"><div class="container" style="position:relative">
+   <div class="inner-menu">
+   <div class="iwt1 iwt_inner row">
+   <div style="margin-top:52px; padding-left: 90px;"><?php if (!empty($page['navigation'])): ?>
               <?php print render($page['navigation']); ?>
-            <?php endif; ?>
-          </nav>
-        </div>
-      <?php endif; ?></div>
-  </div></div></div></div>
-<div class="row" style="background: #4d4d4f; margin-left: 0; border-bottom: 0px solid #2b2b2b"><div class="container">
-	<div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel">
-	
-	<div class="container">
-            <div class="carousel-caption1"><div class="pull-right">
-              <h1 class="second">Tipperary <br>Together</h1>
-              <div class="lead">One Council, One Community</div>
-            </div></div>
+            <?php endif; ?></div></div>
+
+   <div class="iwt2 iwt_inner row" style="cursor:pointer;" onclick="location.href='/publications'">
+   <H2 style="margin-top:32px; text-align: left; color: #fff; padding-left: 95px;">Pay for it</h2></div>
+   <div class="iwt3 iwt_inner row" style="cursor:pointer;" onclick="location.href='/publications'">
+   <H2 style="margin-top:32px; text-align: left; color: #fff; padding-left: 95px;">Download it</h2></div>
+   <div class="iwt4 iwt_inner row" style="cursor:pointer;" onclick="location.href='/forms'">
+   <H2 style="margin-top:30px; text-align: left; color: #fff; padding-left: 95px;">Apply for it</h2></div></div>
+   
+
+   
+   <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel1" data-slide-to="1"></li>
+        <li data-target="#myCarousel1" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="slide1 item active">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Tipperary Together</h1>
+              <p>A new Local Authority, combining the best of North and South.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">More Information</a></p>
+            </div>
           </div>
-	
-	
-    <div class="carousel-inner">
-        <div class="item active">
-          <img src="http://www.tipperarycocostage.ie/sites/default/files/slide1.jpg" alt="" class="imgcarousel">
-          
         </div>
-        <div class="item">
-          <img src="http://www.tipperarycocostage.ie/sites/default/files/slide2.jpg" alt="" class="imgcarousel">
-         
+        <div class="slide2 item">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One County</h1>
+              <p>With a population of 160,000 people and 1,661 square miles, Tipperary is the 6th largest County.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+            </div>
+          </div>
         </div>
+        <div class="slide3 item">
+         <div class="container">
+            <div class="carousel-caption">
+              <h1>One Community</h1>
+              <p>Building on our bond with Local Communities, we are dedicated to build a stronger Tipperary for the future.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div></div></div><!-- /.carousel -->
+
+ <div class="row"><div class="navbar-wrapper" style="background: #152634">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">Services 
+				  <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li <?php $currentPage = basename($_SERVER['REQUEST_URI']); if (in_array($currentPage, array("your-council","Your-Council","Your-council","your-Council"))){ echo 'class="active"';} ?> ><a href="/your-council">Your Council</a></li>
+					<hr>
+					<li><a href="/arts">Arts</a></li>
+					<li><a href="/civil-defence">Civil Defence</a></li>
+                    <li><a href="/community-and-economic-development">Community & Economic Development</a></li>
+                    <li><a href="/environment">Environment</a></li>
+					<li><a href="/finance">Finance</a></li>
+					<li><a href="/fire-services">Fire Services</a></li>
+					<li><a href="/heritage">Heritage</a></li>
+                    <li><a href="/housing">Housing</a></li>
+                    <li><a href="http://www.tipperarylibraries.ie" target="_new">Libraries</a></li>
+					<li><a href="/motor-tax">Motor Tax</a></li>
+					<li><a href="/museum">Museum</a></li>
+					<li><a href="/planning">Planning</a></li>
+					<li><a href="/roads">Roads</a></li>
+                    <li><a href="http://www.stsp.ie" target="_new">Sports</a></li>
+                    <li><a href="/swimming-pools">Swimming Pools</a></li>
+					<li><a href="/water-services">Water</a></li>
+                  </ul>
+                </li>
+                <li><a href="/news">News</a></li>
+				<li><a href="/faqs">FAQs</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">Municipal Districts 
+				  <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/clonmel-municipal-district">Clonmel</a></li>
+					<li><a href="/carrick-on-suir-municipal-district">Carrick-on-Suir</a></li>
+					<li><a href="/cashel-tipperary-municipal-district">Cashel-Tipperary</a></li>
+					<li><a href="/nenagh-municipal-district">Nenagh</a></li>
+                    <li><a href="/templemore-thurles-municipal-district">Templemore-Thurles</a></li>
+	              </ul>
+                </li>
+				
+			</ul>
+            <div class="span2 pull-right">
+		<ul class="social"><li><a href="#"><img src="/sites/default/files/img/fb.png"></a></li>
+		<li><a href="#"><img src="/sites/default/files/img/tw.png"></a></li>
+		<li><a href="#"><img src="/sites/default/files/img/rs.png"></a></li></ul></div></div>
+          </div>
+        </div>
+		
+		</div>
+
+      </div>
     </div>
-	</div>
-</div></div>
+
+
+
+    </div>
 
 
 
 
 
-<div class="row" style="background: #fff; margin-left: 0"><div class="container">
-<div class="row-fluid">
-<section class="span3 iwt1 iwt_inner">
-<span></span>
-<div style="padding-top: 10px; color: #11455B"><H2 style="margin-top:0; text-align: center; color: #0079C2">Pay for it</H2>
-<ul class="fa-ul iwt_nav">
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Motor Tax</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Household Charge</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Traffic Fines</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Rents & Loans</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Water Charges</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>NPPR</a></li>
-</ul></section>
 
-<section class="span3 iwt2 iwt_inner ie-margin1">
-<span></span>
-<div style="padding-top: 10px; color: #11455B"><H2 style="margin-top:0; text-align: center; color: #0079C2">Apply for it</H2><ul class="fa-ul iwt_nav">
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Planning Permission</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Local Authority Housing</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Freedom of Information</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Housing Grants</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Roads Permits & Licences</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Positions Vacant</a></li>
-</ul></section>
-
-
-<section class="span3 iwt3 iwt_inner ie-margin2">
-<span></span>
-<div style="padding-top: 10px; color: #11455B"><H2 style="margin-top:0; text-align: center; color: #0079C2">Download it</H2>
-<ul class="fa-ul iwt_nav">
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Development Plans</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Forms</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Annual Reports</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Publications</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Corporate Plans</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Customer Action Plan</a></li>
-</ul></section>
-
-<section class="span3 iwt4 iwt_inner ie-margin3">
-<span></span>
-<div style="padding-top: 10px; color: #11455B"><H2 style="margin-top:0; text-align: center; color: #0079C2">Find it</H2><ul class="fa-ul iwt_nav">
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Office Locations</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>My Local Representative</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>My Nearest Recycling Centre</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Check the Register</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Fix Your Street</a></li>
-<li><a href="#"><i class="fa-li fa fa-check-square"></i>Planning Files</a></li>
-</ul></section>
-</div></div>
-</div></div></div></div></div>
-
-
-
-<div class="row newsmainrow" style="margin-left: 0">
-<div class="container" style="padding-top: 0px; padding-bottom: 0px;">
+<div class="row newsmainrow" style="margin-left: -30px; padding-top: 20px; padding-bottom: 20px">
+<div class="container" style="padding-top: 10px; padding-bottom: 0px; background-image: url('/sites/default/files/img/newstrans.png'); background-repeat: repeat; background-position: top left;">
   <div id="one-true" class="group">
-  <div class="col span8" style="margin-left: 10px">
+  <div class="col span8">
   <div class="headline">Latest News</div>
   
 <div class="row-fluid"><?php print render($page['newselect']); ?></div>
@@ -123,12 +157,29 @@
 
   
   
-  </div><div class="col span4" style="background: #258A9C; margin-left: 20px">
+  </div><div class="col span4" style="background: transparent; width: 300px">
 <?php print render($page['Featured']); ?>
 </div></div></div></div>
 
 
-
+<div class="row" style="padding-top: 20px; padding-bottom: 20px; padding-left: 5%"><div class="container actions">
+<div class="span2" style="display: inline-block; margin-right: 10px">
+<a href="http://www.fixyourstreet.ie"><img style="height: 100%" src="/sites/default/files/img/b_fixyourstreet.jpg"></a>
+<div class="row" style="padding-right: 20%; padding-left: 30%; padding-top: 10px; text-align: center">
+<h6><a href="http://www.fixyourstreet.ie">Submit Road & Environmental Complaints</a></h6></div></div>
+<div class="span2" style="display: inline-block; margin-right: 10px">
+<a href="/eplan41"><img style="height: 100%" src="/sites/default/files/img/b_eplan.jpg"></a>
+<div class="row" style="padding-right: 20%; padding-left: 30%; padding-top: 10px; text-align: center"><h6><a href="/eplan41">Search a Planning Application</a></h6></div></div>
+<div class="span2" style="display: inline-block; margin-right: 10px">
+<a href="http://www.motortax.ie"><img style="height: 100%" src="/sites/default/files/img/b_motortax.jpg"></a>
+<div class="row" style="padding-right: 20%; padding-left: 30%; padding-top: 10px; text-align: center"><h6><a href="http://www.motortax.ie">Pay Motor Tax Online</a></h6></div></div>
+<div class="span2" style="display: inline-block; margin-right: 10px">
+<a href="https://tipperarysouthcoco.checktheregister.ie/publicpages/ereg.aspx?CID=23&uiLang=en-GB"><img style="height: 100%" src="/sites/default/files/img/b_ereg.jpg"></a>
+<div class="row" style="padding-right: 20%; padding-left: 30%; padding-top: 10px; text-align: center"><h6><a href="https://tipperarysouthcoco.checktheregister.ie/publicpages/ereg.aspx?CID=23&uiLang=en-GB">Check the Live Register</a></h6></div></div>
+<div class="span3" style="display: inline-block; margin-right: 10px">
+<a href="http://www.localenterprise.ie/tipperary"><img style="height: 100%" src="/sites/default/files/img/b_leo1.jpg"></a>
+<div class="row" style="padding-right: 40%; padding-left: 25%; padding-top: 10px; text-align: center"><h6><a href="http://www.localenterprise.ie/tipperary">Contact Your Local Enterprise Office</a></h6></div></div>
+</div></div>
 
 
 <div class="row shadow" style="background: #fff;">
@@ -179,120 +230,48 @@
 </div>
 </div>
 
-<div class="row" style="background: #fff; margin-left: 0; border-bottom: 0px solid #2b2b2b"><div class="container">
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-     
-      <div class="carousel-inner" style="height: 150px;">
-        <div class="item active">
-		<div class="row" style="margin-left: 25px; margin-right: 25px;">
-		<div class="span" style="margin-left: 0px"><a href="http://www.southtipperaryinfo.ie" target="_new"><img src="/sites/default/files/img/cdu1.jpg" height="149px"></a></div>
-		<div class="span" style="margin-left: 0px"><a href="http://www.localenterprise.ie/tipperary" target="_new"><img src="/sites/default/files/img/leo2.jpg"></a></div>
-		<div class="span" style="margin-left: 0px"><a href="http://www.airtricitysolutions.com/Content.aspx?key=report-fault" target="_new"><img src="/sites/default/files/img/airtricity3.jpg" width="261px" height="149px"></a></div>
-		<div class="span" style="margin-left: 0px"><a href="http://www.water.ie" target="_new"><img src="/sites/default/files/img/water4.jpg"></a></div></div></div>
 
-        <div class="item">
-          <div class="row" style="margin-left: 25px; margin-right: 25px;">
-		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/stsp5.jpg"></div>
-		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/tipp6.jpg"></div>
-		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/marathon7.jpg"></div>
-		<div class="span" style="margin-left: 0px; width: 25%; height:80%"><img src="/sites/default/files/img/tipp8.jpg"></div></div>
-        </div>
-		
-    
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
-    </div><!-- /.carousel -->
-</div></div>
-
-<div class="navbar-bottom footerbg">
+<div class="navbar-bottom footerbg" style="padding-top: 20px; padding-bottom: 20px">
 <div class="container address1 footerbg">
-<h4>Tipperary County Council</h4><hr />
-<div>
-<div class="span2 directions">
-<img src="/sites/default/files/img/directions.png"></div>
-<div class="span4">
-<div class="span12">
-County Hall, Clonmel | County Hall, Nenagh
-</div> 
-<div class="span12">
-Telephone (office hours): 0761 065000  
-</div> 
-<div class="span12">
-Out of Hours Emergency Number: 1890 923 948
-</div> 
-<div class="span12">
-Email: info@tipperarycoco.ie
-</div> 
-</div> 
-<div class="span3">
-<a href="#">Translate: English/Irish</a>
-<a href="#">Accessibility: Browse Aloud</a>
-<a href="#">Disclaimer</a>
-<a href="#">Webmail & Extranet</a></div>
-<div class="span3">
-<div class="input-append pull-right">  <input id="appendedInputButton" placeholder="Languages" type="text">  <button class="btn" type="button"><span class="caret"></button></div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<div class="span3"><img src="/sites/default/files/img/logo_sm.png"></div>
 
-
-
+<div class="span4 pull-right" style="margin: 0px; padding:0;">
+   <div class="row-fluid">
+   <div class="span1" style="padding:0; text-align: right;"><img style="padding-right: 8px" src="/sites/default/files/img/lo1.png"></div>
+   <div class="span11" style="margin: 0px; padding:0; font-size: 12px">Civic Offices, Clonmel | Civic Offices, Nenagh, Co. Tipperary<br>
+   Opening Times: 9.30- 5.30, Mon-Fri</div></div>
    
-<div class="slide-out-div" style="line-height: 1; position: fixed; width: 100%; z-index: 40;">
-<a class="handle" style="background-image: url('http://www.tipperarycocostage.ie/sites/default/files/img/servicesbg.png');background-repeat: no-repeat;background-position: top left;color: #4d4d4f; text-decoration: none; padding-top: 2px; padding-bottom: 5px; padding-left: 10px; padding-right: 0px; line-height: 30px; width: 178px; height: 38px; display: block; text-indent: 0px; outline: none; position: absolute; top: 0px; right: -46px;">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/services.png"> Services</a>
-<div class="container"><div class="row" style="display: block; margin: auto;">
+   
+   
+   <div class="row-fluid" style="margin-top: 15px;">
+   <div class="span1" style="padding:0; text-align: right;"><img style="padding-right: 8px" src="/sites/default/files/img/ph1.png"></div>
+   <div class="span5" style="margin: 0px; padding:0; font-size: 12px">0761 065000<br>Out of Hours: 1890 923 948</div>
+   <div class="span1" style="margin: 0px; padding:0; text-align: right;"><img style="padding-right: 8px" src="/sites/default/files/img/ma1.png"></div>
+   <div class="span5" style="margin: 0px; padding:0; font-size: 12px"><a href="mailto: info@tipperarycoco.ie">info@tipperarycoco.ie</a></div>
+   </div>
+  </div>
+<div class="row">
+<div class="span7" style="font-size: 10px; color: #d4d4d7; padding-left: 100px">
+Copyright © 2014 Tipperary County Council
+<div class="row" style="padding-left: 31px; padding-top: 5px;"><a style="display: inline-block; font-size: 12px" href="/disclaimer" target="_new">Disclaimer</a> | 
+<a style="display: inline-block; font-size: 12px" href="/privacy-statement" target="_new">Privacy Statement</a> | 
+<a style="display: inline-block; font-size: 12px" href="/accessibility-statement" target="_new">Accessibility</a> | 
+<a style="display: inline-block; font-size: 12px" href="https://owa.tipperarycoco.ie/owa/" target="_new">Webmail</a></div>
 
-
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_comm.jpg">
-<div style="color: #FCC120; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Community</div></div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_corp.jpg">
-<div style="color: #0079C1; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Corporate<br>Services</div>
 </div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_enter.jpg">
-<div style="color: #FCC120; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Economic<br>Development</div></div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_em.jpg">
-<div style="color: #45BAD0; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Emergency<br>Services</div></div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_envir.jpg">
-<div style="color: #67C0A0; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Environment</div></div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_hous.jpg">
-<div style="color: #F0514A; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Housing</div></div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_motor.jpg">
-<div style="color: #45BAD0; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Motor Tax</div></td>
 </div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_plan.jpg">
-<div style="color: #6AC0A3; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Planning</div>
 </div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_roads1.jpg">
-<div style="color: #45BAD0; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Roads</div></div>
-<div class="span1 icongroup">
-<img src="http://www.tipperarycocostage.ie/sites/default/files/img/icon_water1.jpg">
-<div style="color: #4ABADE; text-align:center; font-weight: bold; font-size: 12px; padding-top: 5px;">Water</div></div>
+</div>
 
-
-</div></div>
+</div>
 
 
 
-
-  
-<script src="http://www.tipperarycocostage.ie/sites/default/files/tiles/js/scripts.js"></script>
 <script src="http://www.tipperarycocostage.ie/sites/all/themes/tipperarycoco/Tiles/js/jquery.tabSlideOut.v1.3.js"></script>
 
-	
+
+
 <script type="text/javascript">
 (function ($) {
 		$(document).ready(function() {
@@ -336,24 +315,28 @@ Email: info@tipperarycoco.ie
 				});
 			});
 								</script>		
-	<script type="text/javascript">
-(function ($){ 
-jQuery(document).ready(function($) {
-    $('.good_ideas').innerfade();
-  });
-})(jQuery);
-</script>
+	
+
 <script type="text/javascript">
 (function ($) {
-$('#mycarousel').carousel({
-  interval: 8000
-})
+$(document).ready(function() {
+    $('#myCarousel1').carousel({
+    interval:1000
+    });
 })(jQuery);
 </script>
+
+
+<script type="text/javascript">
+	$("div").click(function(){
+   window.location=$(this).find("a").attr("href"); return false;
+});
+</script>
+
+
 <script type="text/javascript">
 (function ($) {
-$('#mycarousel1').carousel({
-  interval: false
-})
+$('.dropdown-toggle').dropdown()
 })(jQuery);
 </script>
+

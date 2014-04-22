@@ -21,7 +21,9 @@
   
   <?php print $scripts; ?>
   <script src="http://www.tipperarycocostage.ie/sites/all/themes/tipperarycoco/Tiles/js/jquery.innerfade.js"></script>
-  
+  <script src="http://www.tipperarycocostage.ie/sites/all/themes/tipperarycoco/bootstrap/js/bootstrap-dropdown.js"></script>
+   <script src="http://www.tipperarycocostage.ie/sites/all/themes/tipperarycoco/bootstrap/js/bootstrap-carousel.js"></script>
+ <meta name="google-translate-customization" content="f321577e8a5f7c7b-6a339af3b886c416-gcd1e55fa0b46dee6-14"></meta> 
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
