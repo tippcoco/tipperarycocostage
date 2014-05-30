@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * Additional filter for PHP input.

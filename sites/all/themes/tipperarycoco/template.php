@@ -12,7 +12,7 @@ function tipperarycoco_form_alter(&$form, &$form_state, $form_id) {
     // $form['search_block_form']['#default_value'] = t('FIND IT'); // Set a default value for the textfield
     // $form['actions']['submit']['#value'] = t('GO!'); // Change the text on the submit button
 	if (!drupal_is_front_page()): 
-    $form['actions']['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/tiles/images/search.png');
+    $form['actions']['submit'] = array('#type' => 'image_button', '#src' => '/sites/default/files/img/search.png');
 	endif;
     // Add extra attributes to the text box
     $form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'FIND IT';}";
